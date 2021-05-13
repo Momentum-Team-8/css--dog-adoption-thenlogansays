@@ -64,6 +64,64 @@ display: inline-block;
     margin: 0 auto;
   }
 
+.donate {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/donate.jpg");
+    background-size: 100%;
+    flex-grow: 1;
+}
+.volunteer {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/volunteer.jpg");
+    background-size: 100%;
+    flex-grow: 1;
+}
+.location {
+    text-align: center;
+    font-size: 50px;
+    padding: 75px;
+    margin: 0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.6),
+        rgba(166, 169, 240, 0.6)
+    ),
+    url("starter_files/images/location.png");
+    background-size: 100%;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+}
+
+.donate {
+    color: white;
+    font-family: 'oswald';
+}
+
+.volunteer {
+    color: white;
+    font-family: 'oswald';
+}
+
+.location {
+    color: white;
+    font-family: 'oswald';
+}
 img {
     margin: 0 auto;
     height: 250px;
