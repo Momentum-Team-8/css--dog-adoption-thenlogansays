@@ -27,3 +27,11 @@ header {
 .dogs {
     font-family: "oswald";
 }
+
+.dogs li {
+    display: inline;
+    color:black;
+    background-color: #89DEEF;
+    border-radius: 5px;
+    padding: 10px;
+}
