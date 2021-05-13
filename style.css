@@ -56,13 +56,16 @@ header {
 
   .div-1 {
 margin: 0 auto;
+display: inline-block;
   }
 
   .div-2 {
+      display: inline-block;
     margin: 0 auto;
   }
 
 img {
+    margin: 0 auto;
     height: 250px;
     width: 250px;
 }
