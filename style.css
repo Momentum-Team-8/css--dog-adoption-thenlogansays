@@ -9,20 +9,33 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 10px
-    background-color: white;
-
+    background-color: white
 }
 
 header {
     background-color: #004175;
     font-family: 'Open Sans';
-    font-size: 26px;
+    font-size: 36px;
     font-weight: bold;
     color: antiquewhite;
     border-bottom: solid 3px #89DEEF;
     padding: 25px 25px 25px 25px;
-    
+}
+.Opening {
+    font-family: 'Open Sans';
+}
 
+h2 {
+    margin: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 + p {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .dogs {
     font-family: "oswald";
@@ -65,6 +78,8 @@ display: inline-block;
   }
 
 .donate {
+    color: white;
+    font-family: 'oswald';
     text-align: center;
     font-size: 50px;
     padding: 75px;
@@ -78,6 +93,8 @@ display: inline-block;
     flex-grow: 1;
 }
 .volunteer {
+    color: white;
+    font-family: 'oswald';
     text-align: center;
     font-size: 50px;
     padding: 75px;
@@ -91,6 +108,8 @@ display: inline-block;
     flex-grow: 1;
 }
 .location {
+    color: white;
+    font-family: 'oswald';
     text-align: center;
     font-size: 50px;
     padding: 75px;
@@ -108,20 +127,6 @@ footer {
     display: flex;
 }
 
-.donate {
-    color: white;
-    font-family: 'oswald';
-}
-
-.volunteer {
-    color: white;
-    font-family: 'oswald';
-}
-
-.location {
-    color: white;
-    font-family: 'oswald';
-}
 img {
     margin: 0 auto;
     height: 250px;
