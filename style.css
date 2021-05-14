@@ -38,47 +38,22 @@ h2 + p {
     margin-bottom: 5px;
 }
 .dogs {
-    font-family: "oswald";
-}
-
-.dogs li {
-    display: inline-block;
-    color:black;
-    background-color: #89DEEF;
-    border-radius: 5px;
-    padding: 8px;
-    margin: 6px;
-}
-
-.dogs {
-    margin: 0 auto;
+    font-family: 'oswald';
     border: 5px solid black;
     display: flex;
+    flex: wrap;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    align-items: center;
+}
 
-  .container {
-      margin:  0 auto; 
-      display: flex;
-      flex-wrap: wrap;
-      height: 500px;
-      width: 500px;
-      border: 1px solid black;
-  }
-
-  .div-1 {
-margin: 0 auto;
-flex-wrap: wrap;
-  }
-
-  .div-2 {
-      display:inline-block;
-      flex-wrap: wrap;
-    margin: 0 auto;
-  }
-
-  footer {
+footer {
     display: flex;
 }
 
