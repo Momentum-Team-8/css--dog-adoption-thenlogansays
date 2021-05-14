@@ -51,17 +51,17 @@ h2 + p {
 }
 
 .dogs {
-    width: 1500px;
-    height: 5000px;
+    margin: 0 auto;
     border: 5px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+}
 
   .container {
-      margin:  0 auto;
-      display: inline-block;
+      margin:  0 auto; 
+      display: flex;
+      flex-wrap: wrap;
       height: 500px;
       width: 500px;
       border: 1px solid black;
@@ -69,11 +69,12 @@ h2 + p {
 
   .div-1 {
 margin: 0 auto;
-display: inline-block;
+flex-wrap: wrap;
   }
 
   .div-2 {
-      display: inline-block;
+      display:inline-block;
+      flex-wrap: wrap;
     margin: 0 auto;
   }
 
